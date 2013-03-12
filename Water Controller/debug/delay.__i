@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\include -I..\STM32F4xx_StdPeriph_Driver\inc 
+-I "D:\Program Files\Keil\ARM\RV31\INC" 
+-I "D:\Program Files\Keil\ARM\CMSIS\Include" 
+-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx" 
+-DUSE_STDPERIPH_DRIVER -o ".\debug\delay.o" --omf_browse ".\debug\delay.crf" --depend ".\debug\delay.d" "src\delay.c"
